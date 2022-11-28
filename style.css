@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #19A1AD;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+
+}
+
+.bg-image .top{
+    width: 1600px;
+    position: absolute;
+    top: 38%;
+    left: 42%;
+    z-index: -1;
+}
+
+.bg-image .bottom{
+    width: 1600px;
+    position: absolute;
+    bottom: 48%;
+    right: 40%;
+    z-index: -2;
+}
+
+
+
+
+#card {
+    margin: auto;
+    margin-top: 15rem;
+    width: 21.9rem;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+ 
+  
+
+}
+
+#card img {
+    margin-bottom: -3rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  
+    
+}
+
+
+
+#victor img {
+    border: 0.5rem solid #fff;
+    margin-left: 7.5rem;
+    border-radius: 50%;
+    
+}
+
+
+
+#card p {
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+span {
+    color: rgb(158, 158, 158);
+    font-weight: normal;
+    
+}
+
+#London {
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    color:  rgb(158, 158, 158);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+   
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(236, 236, 236);
+}
+
+#text {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+#Photos {
+    margin-bottom: 1.2rem;
+}
+
+#Flowers span {
+    font-size: 0.8rem;
+    color:  rgb(158, 158, 158);
+    
+}
+
+#Likes span {
+    font-size: 0.8rem;
+    color:  rgb(158, 158, 158);
+
+}
+
+#Photos span {
+    font-size: 0.8rem;
+    color:  rgb(158, 158, 158);
+
+}
+
+
+
+
